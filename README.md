@@ -1,5 +1,7 @@
 # DiscSearch
 
+![](./NBX_Badge-02.svg)
+
 Searching through the discrete image spaces. Can we search through 1k images &lt;5 seconds.
 
 ## Dataset
@@ -9,7 +11,8 @@ We started with writing custom scripts for scraping from `unsplash.com` but the 
 ### Unsplash Scraping
 
 Go to any query eg [`unsplash.com/s/photos/iphone`](https://unsplash.com/s/photos/iphone) and scroll till you think you have sufficient images. Then open up console from inspect and type in the following instructions ([link](https://towardsdatascience.com/quickly-extract-all-links-from-a-web-page-using-javascript-and-the-browser-console-49bb6f48127b)):
-```
+
+```js
 var x = document.querySelectorAll("a");
 var myarray = []
 for (var i=0; i<x.length; i++){

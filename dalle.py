@@ -41,7 +41,7 @@ class DallE:
 
   def preprocess(self, imglist, target_image_size = 256):
     if not isinstance(imglist, list):
-      img = [imglist]
+      imglist = [imglist]
 
     all_t = []
     for img in imglist:
