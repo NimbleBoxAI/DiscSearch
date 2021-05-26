@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
+daily.py
+.img_cache
+links_raw.txt
+keys.txt
+*.ipynb
